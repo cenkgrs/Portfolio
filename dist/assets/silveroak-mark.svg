@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">SilverOak Tech marka işareti</title>
+  <desc id="desc">Gümüş meşe yaprağı ile teknoloji devrelerini birleştiren geometrik sembol.</desc>
+  <defs>
+    <linearGradient id="silver" x1="96" y1="72" x2="416" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7FAFF"/>
+      <stop offset="0.48" stop-color="#C6CFDC"/>
+      <stop offset="1" stop-color="#778496"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="256" y1="122" x2="256" y2="416" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86C5FF"/>
+      <stop offset="1" stop-color="#2D7FD4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- The open frame suggests a product still growing. -->
+  <path d="M256 36 438 141v210L256 456 74 351V141L256 36Z"
+        fill="none" stroke="url(#silver)" stroke-width="16" stroke-linejoin="round"/>
+
+  <!-- Geometric oak crown. Each pair also reads as angled circuit branches. -->
+  <path d="M256 104 211 139l15 58 30 17 30-17 15-58-45-35Z" fill="url(#silver)"/>
+  <path d="m205 161-66 18 3 62 55 14 39-30-31-64Z" fill="url(#silver)"/>
+  <path d="m307 161 66 18-3 62-55 14-39-30 31-64Z" fill="url(#silver)"/>
+  <path d="m191 250-61 34 20 58 65-3 24-49-48-40Z" fill="url(#silver)"/>
+  <path d="m321 250 61 34-20 58-65-3-24-49 48-40Z" fill="url(#silver)"/>
+
+  <!-- Central trunk and three signal nodes make the technology layer explicit. -->
+  <path d="M256 193v192M256 273l-61-51M256 273l61-51M256 326l-54 45M256 326l54 45"
+        fill="none" stroke="url(#blue)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256" cy="193" r="11" fill="#8BC8FF"/>
+  <circle cx="195" cy="222" r="11" fill="#8BC8FF"/>
+  <circle cx="317" cy="222" r="11" fill="#8BC8FF"/>
+  <circle cx="202" cy="371" r="11" fill="#4B97E6"/>
+  <circle cx="310" cy="371" r="11" fill="#4B97E6"/>
+  <path d="M229 406h54l-27 28-27-28Z" fill="url(#silver)"/>
+</svg>
